@@ -1,5 +1,5 @@
 testname: webMUSHRA Example
-testId: default_example
+testId: headphones_screen_example
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
@@ -11,50 +11,53 @@ pages:
       id: first_page
       name: Welcome
       content: Welcome to webMUSHRA!       
-    - type: mushra
-      id: trial1
-      name: MUSHRA
-      content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/mono_ref.wav
-      createAnchor35: true
-      createAnchor70: true
+    - type: volume
+      id: vol
+      name: Volume settings
+      content: Bitte benutzen Sie Kopfhörer und stellen die Lautstärke auf einen angenehmen Wert ein!
+      stimulus: configs/resources/audio/stimuli_HugginsPitch/HugginsPitch_calibration.wav
+      defaultVolume: 0.5
+    - type: headphones_screen
+      id: hp_check
+      name: Headphones check
+      repetitions: 6
+      target: configs/resources/audio/stimuli_HugginsPitch/HugginsPitch_1.wav
+      other: 
+        A: configs/resources/audio/stimuli_HugginsPitch/HugginsPitch_2.wav
+        B: configs/resources/audio/stimuli_HugginsPitch/HugginsPitch_3.wav
+    - type: preference_test
+      id: trialpref
+      name: Preference test
+      content: |
+        <p><b>Which sound do you prefer?</b></p>
+      considerOrder: true
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-    - 
-          - random
-          - type: mushra
-            id: trial_random_1
-            name: MUSHRA - Random 2
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
-            enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
-            createAnchor35: false
-            createAnchor70: false
-            stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
-          - type: mushra
-            id: trial_random_2
-            name: MUSHRA - Random 1
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
-            enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
-            createAnchor35: false
-            createAnchor70: false
-            stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
+          - A1: configs/resources/audio/1.wav
+            A2: configs/resources/audio/2.wav
+            A3: configs/resources/audio/3.wav
+            A4: configs/resources/audio/4.wav
+            A5: configs/resources/audio/5.wav
+          - B1: configs/resources/audio/6.wav
+            B2: configs/resources/audio/7.wav
+            B3: configs/resources/audio/8.wav
+            B4: configs/resources/audio/9.wav
+            B5: configs/resources/audio/10.wav
+          - C1: configs/resources/audio/11.wav
+            C2: configs/resources/audio/12.wav
+            C3: configs/resources/audio/13.wav
+            C4: configs/resources/audio/14.wav
+            C5: configs/resources/audio/15.wav
+          - D1: configs/resources/audio/16.wav
+            D2: configs/resources/audio/17.wav
+            D3: configs/resources/audio/18.wav
+            D4: configs/resources/audio/19.wav
+            D5: configs/resources/audio/20.wav
     - type: finish
       name: Thank you
       content: Thank you for attending!
       showResults: true
       writeResults: true
+      generateSubjectId: true
       questionnaire:
           - type: text
             label: eMail
