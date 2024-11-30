@@ -15,7 +15,9 @@ pages:
       id: consent_page
       name: Datenschutz- und Einwilligungserklärung für das Forschungsprojekt oder Experiment <strong>Prosodievorhersage</strong>
       mustConsent: true
-      content: <p>You are participating in a listening test. For this, we want to store the answers you give to the following questions.<br>Do you give consent for this?</p>       
+      content: <h1> Versuchsleiter: Simon Sieben</h1>
+      <h1> Zweck und datenerhebende Stelle </h1>
+      <p>You are participating in a listening test. For this, we want to store the answers you give to the following questions.<br>Do you give consent for this?</p>       
     - type: volume
       id: vol
       name: Volume settings
