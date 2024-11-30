@@ -25,7 +25,7 @@ pages:
     - type: headphones_screen
       id: hp_check
       name: Headphones check
-      repetitions: 6
+      repetitions: 3
       target: configs/resources/audio/stimuli_HugginsPitch/HugginsPitch_1.wav
       other: 
         A: configs/resources/audio/stimuli_HugginsPitch/HugginsPitch_2.wav
@@ -34,7 +34,7 @@ pages:
       id: trialpref
       name: Preference test
       content: |
-        <p><b>Which sound do you prefer?</b></p>
+        <p><b>Welcher Klang wirkt natürlicher?</b></p>
       considerOrder: true
       stimuli:
           - A1: configs/resources/audio/1.wav
@@ -42,24 +42,9 @@ pages:
             A3: configs/resources/audio/3.wav
             A4: configs/resources/audio/4.wav
             A5: configs/resources/audio/5.wav
-          - B1: configs/resources/audio/6.wav
-            B2: configs/resources/audio/7.wav
-            B3: configs/resources/audio/8.wav
-            B4: configs/resources/audio/9.wav
-            B5: configs/resources/audio/10.wav
-          - C1: configs/resources/audio/11.wav
-            C2: configs/resources/audio/12.wav
-            C3: configs/resources/audio/13.wav
-            C4: configs/resources/audio/14.wav
-            C5: configs/resources/audio/15.wav
-          - D1: configs/resources/audio/16.wav
-            D2: configs/resources/audio/17.wav
-            D3: configs/resources/audio/18.wav
-            D4: configs/resources/audio/19.wav
-            D5: configs/resources/audio/20.wav
     - type: finish
       name: Thank you
-      content: Thank you for attending!
+      content: Vielen Dank für die Teilnahme!
       showResults: true
       writeResults: true
       generateSubjectId: true
