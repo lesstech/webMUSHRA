@@ -15,9 +15,7 @@ pages:
       id: consent_page
       name: Datenschutz- und Einwilligungserklärung für das Forschungsprojekt oder Experiment <strong>Prosodievorhersage</strong>
       mustConsent: true
-      content: <h1> Versuchsleiter: Simon Sieben</h1>
-      <h1> Zweck und datenerhebende Stelle </h1>
-      <p>You are participating in a listening test. For this, we want to store the answers you give to the following questions.<br>Do you give consent for this?</p>       
+      content: <div align="left"><h3>Versuchsleiter: Simon Sieben</h3><p align="left"><strong>Versuchsleiter: Simon Sieben</strong><br><br><strong>Zweck und datenerhebende Stelle</strong><br>Im Rahmen der Studie „Intonationsvorhersage“ wird die Bewertung der Natürlichkeit der Betonung synthetisierter Sprache durch die potenziellen Nutzer durch Perzeptionstests untersucht. Die Testperson bekommt eine Reihe von synthetisierten Satzpaaren mit verschiedenen Synthese-Varianten mit unterschiedlich generierten Satz-Betonungen dargeboten. Es soll jeweils der natürlicher klingende Satz ausgewählt werden. Alleinig für vorgenannten Forschungszweck sollen personenbezogene Daten durch die TU Dresden, Fakultät Elektrotechnik und Informationstechnik, Professur für Sprachtechnologie und Kognitive Systeme, 01062 Dresden, E-Mail kogsys@mailbox.tu-dresden.de verarbeitet werden (Verarbeitung im Sinne von Erhebung, Speicherung, Veränderung und Nutzung). Hierzu ist eine freiwillige und informierte Einwilligung erforderlich. </p></div>
     - type: volume
       id: vol
       name: Volume settings
