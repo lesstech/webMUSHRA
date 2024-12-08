@@ -1,0 +1,17 @@
+name =  ; start_of_word = 0.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.100000; f0_20%_Hz = 0.00; f0_50%_Hz = 0.00; f0_80%_Hz = 0.00; 
+name = g; start_of_word = 1.0; word_accent = 0.0; start_of_phrase = 1.0; duration_s = 0.071399; f0_20%_Hz = 102.12; f0_50%_Hz = 108.63; f0_80%_Hz = 110.82; 
+name = i:; start_of_word = 0.0; word_accent = 1.0; start_of_phrase = 0.0; duration_s = 0.119702; f0_20%_Hz = 111.79; f0_50%_Hz = 118.45; f0_80%_Hz = 119.70; 
+name = p; start_of_word = 0.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.093274; f0_20%_Hz = 115.83; f0_50%_Hz = 116.41; f0_80%_Hz = 113.67; 
+name = m; start_of_word = 1.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.077302; f0_20%_Hz = 114.51; f0_50%_Hz = 111.43; f0_80%_Hz = 106.70; 
+name = i:6; start_of_word = 0.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.136303; f0_20%_Hz = 106.60; f0_50%_Hz = 101.15; f0_80%_Hz = 96.02; 
+name = b; start_of_word = 1.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.060826; f0_20%_Hz = 94.02; f0_50%_Hz = 101.91; f0_80%_Hz = 105.78; 
+name = I; start_of_word = 0.0; word_accent = 1.0; start_of_phrase = 0.0; duration_s = 0.071098; f0_20%_Hz = 107.45; f0_50%_Hz = 109.32; f0_80%_Hz = 108.23; 
+name = t; start_of_word = 0.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.073538; f0_20%_Hz = 103.89; f0_50%_Hz = 104.97; f0_80%_Hz = 103.83; 
+name = @; start_of_word = 0.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.075856; f0_20%_Hz = 102.66; f0_50%_Hz = 93.90; f0_80%_Hz = 87.21; 
+name = d; start_of_word = 1.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.051152; f0_20%_Hz = 90.77; f0_50%_Hz = 93.05; f0_80%_Hz = 94.04; 
+name = i:; start_of_word = 0.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.090030; f0_20%_Hz = 93.98; f0_50%_Hz = 90.04; f0_80%_Hz = 87.13; 
+name = b; start_of_word = 1.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.062791; f0_20%_Hz = 88.74; f0_50%_Hz = 93.77; f0_80%_Hz = 96.59; 
+name = U; start_of_word = 0.0; word_accent = 1.0; start_of_phrase = 0.0; duration_s = 0.082862; f0_20%_Hz = 92.83; f0_50%_Hz = 89.91; f0_80%_Hz = 87.71; 
+name = t; start_of_word = 0.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.073765; f0_20%_Hz = 87.82; f0_50%_Hz = 83.89; f0_80%_Hz = 81.64; 
+name = 6; start_of_word = 0.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.161356; f0_20%_Hz = 83.67; f0_50%_Hz = 78.25; f0_80%_Hz = 75.74; 
+name =  ; start_of_word = 0.0; word_accent = 0.0; start_of_phrase = 0.0; duration_s = 0.100000; f0_20%_Hz = 0.00; f0_50%_Hz = 0.00; f0_80%_Hz = 0.00; 

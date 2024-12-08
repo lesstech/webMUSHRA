@@ -37,11 +37,11 @@ pages:
         <p><b>Welcher Klang wirkt natürlicher?</b></p>
       considerOrder: true
       stimuli:
-          - A1: configs/resources/audio/1.wav
-            A2: configs/resources/audio/2.wav
-            A3: configs/resources/audio/3.wav
-            A4: configs/resources/audio/4.wav
-            A5: configs/resources/audio/5.wav
+          - A1: configs/resources/audio/listening_experiment/extra_pos_2.wav
+            A2: configs/resources/audio/listening_experiment/extra_probability_2.wav
+            A3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_2.wav
+            A4: configs/resources/audio/listening_experiment/extra_word_freq_2.wav
+            A5: configs/resources/audio/listening_experiment/vergleich_2.wav
     - type: finish
       name: Thank you
       content: Vielen Dank für die Teilnahme!
