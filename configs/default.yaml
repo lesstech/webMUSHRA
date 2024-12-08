@@ -1,5 +1,5 @@
 testname: webMUSHRA Example
-testId: headphones_screen_example
+testId: prosody_experiment
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
@@ -9,23 +9,23 @@ remoteService: service/write.php
 pages:
     - type: generic
       id: first_page
-      name: Welcome
-      content: Welcome to webMUSHRA!
+      name: Willkommen zum Hörexperiment!
+      content: Willkommen zum Hörexperiment zur Prosodievorhersage! Da im Folgenden sehr kleine Klangunterschiede bewertet werden sollen bitten wir Sie Kopfhörer zu benutzen. Nach der Einwilligungserklärung erfolgt gleich zunächst ein kurzer Kopfhörertest, in dem sie 6 mal denjenigen von drei Klängen identifizieren, welcher über Kopfhörer scheinbar einen tiefen Piepton enthält. Anschließend folgt das eigentliche Hörexperiment, welches ca. 60-90 Minuten in Anspruch nimmt. In diesem soll von jeweils zwei synthetisierten Sprachäußerungen diejenige ausgewählt werden, welche in Bezug auf Sprachrhythmus und Sprachmelodie natürlicher wirkt. Dafür muss jede synthetisierte Äußerung zumindest einmal komplett abgespielt werden, ein wiederholtes Hören ist aber auch möglich und bei Unsicherheit erwünscht. Für jedes Paar muss eine Präferenz abgegeben werden. Das Experiment endet schließlich mit einer demographischen Erhebung.
     - type: consent
       id: consent_page
       name: Datenschutz- und Einwilligungserklärung für das Forschungsprojekt oder Experiment <strong>Prosodievorhersage</strong>
       mustConsent: true
-      content: <div align="left"><h3>Versuchsleiter: Simon Sieben</h3><p align="left"><strong>Versuchsleiter: Simon Sieben</strong><br><br><strong>Zweck und datenerhebende Stelle</strong><br>Im Rahmen der Studie „Intonationsvorhersage“ wird die Bewertung der Natürlichkeit der Betonung synthetisierter Sprache durch die potenziellen Nutzer durch Perzeptionstests untersucht. Die Testperson bekommt eine Reihe von synthetisierten Satzpaaren mit verschiedenen Synthese-Varianten mit unterschiedlich generierten Satz-Betonungen dargeboten. Es soll jeweils der natürlicher klingende Satz ausgewählt werden. Alleinig für vorgenannten Forschungszweck sollen personenbezogene Daten durch die TU Dresden, Fakultät Elektrotechnik und Informationstechnik, Professur für Sprachtechnologie und Kognitive Systeme, 01062 Dresden, E-Mail kogsys@mailbox.tu-dresden.de verarbeitet werden (Verarbeitung im Sinne von Erhebung, Speicherung, Veränderung und Nutzung). Hierzu ist eine freiwillige und informierte Einwilligung erforderlich. </p></div>
+      content: <div align="left"><h3>Versuchsleiter: Simon Sieben</h3><p align="left"><strong>Versuchsleiter: Simon Sieben</strong><br><br><strong>Zweck und datenerhebende Stelle</strong><br>Im Rahmen der Studie „Prosodievorhersage“ wird die Bewertung der Natürlichkeit der Betonung synthetisierter Sprache durch die potenziellen Nutzer durch Perzeptionstests untersucht. Die Testperson bekommt eine Reihe von synthetisierten Satzpaaren mit verschiedenen Synthese-Varianten mit unterschiedlich generierten Satz-Betonungen dargeboten. Es soll jeweils der natürlicher klingende Satz ausgewählt werden. Alleinig für vorgenannten Forschungszweck sollen personenbezogene Daten durch die TU Dresden, Fakultät Elektrotechnik und Informationstechnik, Professur für Sprachtechnologie und Kognitive Systeme, 01062 Dresden, E-Mail kogsys@mailbox.tu-dresden.de verarbeitet werden (Verarbeitung im Sinne von Erhebung, Speicherung, Veränderung und Nutzung). Hierzu ist eine freiwillige und informierte Einwilligung erforderlich. </p></div>
     - type: volume
       id: vol
-      name: Volume settings
+      name: Lautstärkeeinstellung
       content: Bitte benutzen Sie Kopfhörer und stellen die Lautstärke auf einen angenehmen Wert ein!
       stimulus: configs/resources/audio/stimuli_HugginsPitch/HugginsPitch_calibration.wav
       defaultVolume: 0.5
     - type: headphones_screen
       id: hp_check
       name: Headphones check
-      repetitions: 3
+      repetitions: 6
       target: configs/resources/audio/stimuli_HugginsPitch/HugginsPitch_1.wav
       other: 
         A: configs/resources/audio/stimuli_HugginsPitch/HugginsPitch_2.wav
@@ -42,6 +42,16 @@ pages:
             A3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_2.wav
             A4: configs/resources/audio/listening_experiment/extra_word_freq_2.wav
             A5: configs/resources/audio/listening_experiment/vergleich_2.wav
+          - B1: configs/resources/audio/listening_experiment/extra_pos_4.wav
+            B2: configs/resources/audio/listening_experiment/extra_probability_4.wav
+            B3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_4.wav
+            B4: configs/resources/audio/listening_experiment/extra_word_freq_4.wav
+            B5: configs/resources/audio/listening_experiment/vergleich_4.wav
+          - C1: configs/resources/audio/listening_experiment/extra_pos_5.wav
+            C2: configs/resources/audio/listening_experiment/extra_probability_5.wav
+            C3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_5.wav
+            C4: configs/resources/audio/listening_experiment/extra_word_freq_5.wav
+            C5: configs/resources/audio/listening_experiment/vergleich_5.wav
     - type: finish
       name: Thank you
       content: Vielen Dank für die Teilnahme!
@@ -50,7 +60,7 @@ pages:
       generateSubjectId: true
       questionnaire:
           - type: text
-            label: eMail
+            label: eMail (falls Angabe unerwünscht einfach x in das Feld eintragen)
             name: email
           - type: number
             label: Age
