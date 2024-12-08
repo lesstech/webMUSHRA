@@ -1,6 +1,6 @@
 testname: webMUSHRA Example
 testId: prosody_experiment
-bufferSize: 2048
+bufferSize: 8192
 stopOnErrors: true
 showButtonPreviousPage: true
 remoteService: service/write.php
