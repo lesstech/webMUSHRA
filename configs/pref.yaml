@@ -15,7 +15,7 @@ pages:
       content: |
         <p><b>Which sound do you prefer?</b></p>
       considerOrder: true
-      mustPlayback: ended
+      mustPlayback: processUpdate
       stimuli:
         C1: configs/resources/audio/mono_c1.wav
         C2: configs/resources/audio/mono_c2.wav
