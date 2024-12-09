@@ -120,7 +120,7 @@ pages:
             I2: configs/resources/audio/listening_experiment/extra_probability_17.wav
             I3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_17.wav
             I4: configs/resources/audio/listening_experiment/extra_word_freq_17.wav
-            I5: configs/resources/audio/listening_experiment/vergleich_19.wav
+            I5: configs/resources/audio/listening_experiment/vergleich_17.wav
           - J1: configs/resources/audio/listening_experiment/extra_pos_19.wav
             J2: configs/resources/audio/listening_experiment/extra_probability_19.wav
             J3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_19.wav
