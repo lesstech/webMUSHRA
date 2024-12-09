@@ -10,12 +10,51 @@ pages:
     - type: generic
       id: first_page
       name: Willkommen zum Hörexperiment!
-      content: Willkommen zum Hörexperiment zur Prosodievorhersage! Da im Folgenden sehr kleine Klangunterschiede bewertet werden sollen bitten wir Sie Kopfhörer zu benutzen. Nach der Einwilligungserklärung erfolgt gleich zunächst ein kurzer Kopfhörertest, in dem sie 6 mal denjenigen von drei Klängen identifizieren, welcher über Kopfhörer scheinbar einen tiefen Piepton enthält. Anschließend folgt das eigentliche Hörexperiment, welches ca. 60-90 Minuten in Anspruch nimmt. In diesem soll von jeweils zwei synthetisierten Sprachäußerungen diejenige ausgewählt werden, welche in Bezug auf Sprachrhythmus und Sprachmelodie natürlicher wirkt. Dafür muss jede synthetisierte Äußerung zumindest einmal komplett abgespielt werden, ein wiederholtes Hören ist aber auch möglich und bei Unsicherheit erwünscht. Für jedes Paar muss eine Präferenz abgegeben werden. Das Experiment endet schließlich mit einer demographischen Erhebung.
+      content: |
+        <p> Willkommen zum Hörexperiment zur Prosodievorhersage!</p> 
+        <p> Da im Folgenden sehr kleine Klangunterschiede bewertet werden sollen, bitten wir Sie Kopfhörer zu benutzen. </p>
+        <p> Nach der Einwilligungserklärung erfolgt gleich zunächst ein kurzer Kopfhörertest, in dem sie 6 mal denjenigen von drei Klängen identifizieren, welcher über Kopfhörer scheinbar einen tiefen Piepton enthält. </p> <p>Anschließend folgt das eigentliche Hörexperiment, welches ca. 60-90 Minuten in Anspruch nimmt. In diesem soll von jeweils zwei synthetisierten Sprachäußerungen diejenige ausgewählt werden, welche in Bezug auf Sprachrhythmus und Sprachmelodie natürlicher wirkt. Dafür muss jede synthetisierte Äußerung zumindest einmal komplett abgespielt werden, ein wiederholtes Hören ist aber auch möglich und bei Unsicherheit erwünscht. Für jedes Paar muss eine Präferenz abgegeben werden.</p>
+        <p> Das Experiment endet schließlich mit einer kurzen demographischen Erhebung.</p>
     - type: consent
       id: consent_page
       name: Datenschutz- und Einwilligungserklärung für das Forschungsprojekt oder Experiment <strong>Prosodievorhersage</strong>
       mustConsent: true
-      content: <div align="left"><h3>Versuchsleiter: Simon Sieben</h3><p align="left"><strong>Versuchsleiter: Simon Sieben</strong><br><br><strong>Zweck und datenerhebende Stelle</strong><br>Im Rahmen der Studie „Prosodievorhersage“ wird die Bewertung der Natürlichkeit der Betonung synthetisierter Sprache durch die potenziellen Nutzer durch Perzeptionstests untersucht. Die Testperson bekommt eine Reihe von synthetisierten Satzpaaren mit verschiedenen Synthese-Varianten mit unterschiedlich generierten Satz-Betonungen dargeboten. Es soll jeweils der natürlicher klingende Satz ausgewählt werden. Alleinig für vorgenannten Forschungszweck sollen personenbezogene Daten durch die TU Dresden, Fakultät Elektrotechnik und Informationstechnik, Professur für Sprachtechnologie und Kognitive Systeme, 01062 Dresden, E-Mail kogsys@mailbox.tu-dresden.de verarbeitet werden (Verarbeitung im Sinne von Erhebung, Speicherung, Veränderung und Nutzung). Hierzu ist eine freiwillige und informierte Einwilligung erforderlich. </p></div>
+      content: | 
+        <div align="left">
+        <h3>Versuchsleiter: Simon Sieben</h3>
+        <h3>Zweck und datenerhebende Stelle</h3>
+        <p>Im Rahmen der Studie „Prosodievorhersage“ wird die Bewertung der Natürlichkeit der Betonung synthetisierter Sprache durch die potenziellen Nutzer durch Perzeptionstests untersucht.</p>
+        <p>Die Testperson bekommt eine Reihe von synthetisierten Satzpaaren mit verschiedenen Synthese-Varianten mit unterschiedlich generierten Satz-Betonungen dargeboten. Es soll jeweils der natürlicher klingende Satz ausgewählt werden. </p>
+        <p>Alleinig für vorgenannten Forschungszweck sollen personenbezogene Daten durch die TU Dresden, Fakultät Elektrotechnik und Informationstechnik, Professur für Sprachtechnologie und Kognitive Systeme, 01062 Dresden, E-Mail kogsys@mailbox.tu-dresden.de verarbeitet werden (Verarbeitung im Sinne von Erhebung, Speicherung, Veränderung und Nutzung). </p> 
+        <p>Hierzu ist eine freiwillige und informierte Einwilligung erforderlich. </p> 
+
+        <h3>Datenverarbeitung</h3>
+        <p> Die personenbezogenen Daten für jede Testperson (probandenbezogene Metadaten (Vorname, Familienname, Wohnort, Alter, Geschlecht, Muttersprache, Vergütung) werden den gesetzlichen Vorschriften entsprechend geschützt. </p>
+        <p> Die probandenbezogenen Daten werden getrennt von den Testdaten aufgezeichnet und vor der Verarbeitung der inhaltlichen Daten pseudonymisiert. Diesem Zweck dient eine Codeliste, die jedem Probandennamen eine alphanumerische Codierung (Probanden-ID) zuordnet. Die Codeliste wird nicht elektronisch gespeichert, sondern ausgedruckt und im Sekretariat der Professur unter Verschluss aufbewahrt. </p>
+        <p> Inhaltliche Daten (z.B. Antworten bzw. Auswahlentscheidungen während der Perzeptionstests, Reaktionszeiten/ Reaktionsmuster etc.) werden zwecks softwaregestützter Auswertung elektronisch gespeichert. </p>
+        <p> Sofern demografische Angaben für die Auswertung der Tests von Bedeutung sind, werden pseudonymisierte Probandenprofile angelegt, die anstelle der Namen die Probanden-IDs enthalten. </p>
+        <p> Wir sichern Ihnen zu, dass die Daten unverzüglich anonymisiert werden, sobald es der Forschungszweck erlaubt. Es kann jedoch unter Umständen und im Einzelfall möglich sein, dass keine vollständige Anonymisierung möglich ist. </p>
+
+        <h3>Freiwilligkeit und Widerruf</h3>
+        <p> Die Teilnahme an den Perzeptionstest sowie die Mitteilung personenbezogener Angaben im Zusammenhang mit der Teilnahme an den Perzeptionstests sind freiwillig. Die Teilnahme an den Tests sowie die Erhebung, Speicherung und Nutzung der Daten bedürfen der schriftlichen Einwilligung. Sie können Ihre Einwilligung jederzeit ohne Angabe von Gründen mit Wirkung auf die Zukunft widerrufen. </p>
+        <p> Im Fall der Verweigerung oder des Widerrufs der Einwilligung entstehen Ihnen keine Nachteile. </p>
+        <p> Wir weisen Sie darauf hin, dass Sie bis zum Zeitpunkt der Veröffentlichung die Löschung Ihrer Daten verlangen können, sofern diese individuell zuordenbar sind. </p>
+
+        <h3>Datenübermittlungs</h3>
+        <p>Insofern dies nicht anders gesetzlich bestimmt ist oder Sie im Einzelfall ausdrücklich eingewilligt haben, erfolgt keine Übermittlung von personenbezogenen Daten an Dritte.</p>
+
+        <h3>Speicherdauer</h3>
+        <p>Die im Zusammenhang mit dem Forschungsprojekt erhobenen inhaltlichen Daten werden 10 Jahre gespeichert. Alle personenbezogenen Daten werden nach Abschluss des Forschungsprojektes datenschutzgerecht gelöscht.</p>
+
+        <h3>Veröffentlichung</h3>
+        <p>Die Ergebnisse der Studie werden in wissenschaftlichen Publikationen veröffentlicht. In Veröffentlichungen werden die auf Versuchspersonen bezogenen Daten stets anonymisiert.</p>
+
+        <h3>Auskunftsrecht</h3>
+        <p>Mir ist bekannt, dass ich jederzeit Auskunft über die zu meiner Person verarbeiteten Daten sowie die möglichen Empfänger dieser Daten, an die diese übermittelt wurden, verlangen kann und mir eine Antwort mit der Frist von einem Monat nach Eingang des Auskunftsersuchens zusteht.</p>
+
+        <h3>Datenschutzbeauftragter und Aufsichtsbehörde für den Datenschutz</h3>
+        <p>Mir ist bekannt, dass ich mich jederzeit an den Datenschutzbeauftragten der TU Dresden (https://tu-dresden.de/impressum#ck_datenschutz) sowie an die zuständige Aufsichtsbehörde (https://www.saechsdsb.de/impressum-datenschutzerklaerung) für den Datenschutz wenden kann.</p>
+        </div>
     - type: volume
       id: vol
       name: Lautstärkeeinstellung
