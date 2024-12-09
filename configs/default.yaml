@@ -17,10 +17,13 @@ pages:
       mustConsent: true
       content: | 
       <div align="left">
-        <h3>Versuchsleiter: Simon Sieben</h3>
-        <h3>Zweck und datenerhebende Stelle</h3>
-        <p>Im Rahmen der Studie „Prosodievorhersage“ wird die Bewertung der Natürlichkeit der Betonung synthetisierter Sprache durch die potenziellen Nutzer durch Perzeptionstests untersucht.</p>
-        <p> Die Testperson bekommt eine Reihe von synthetisierten Satzpaaren mit verschiedenen Synthese-Varianten mit unterschiedlich generierten Satz-Betonungen dargeboten. Es soll jeweils der natürlicher klingende Satz ausgewählt werden. </p> <p> Alleinig für vorgenannten Forschungszweck sollen personenbezogene Daten durch die TU Dresden, Fakultät Elektrotechnik und Informationstechnik, Professur für Sprachtechnologie und Kognitive Systeme, 01062 Dresden, E-Mail kogsys@mailbox.tu-dresden.de verarbeitet werden (Verarbeitung im Sinne von Erhebung, Speicherung, Veränderung und Nutzung). </p> <p> Hierzu ist eine freiwillige und informierte Einwilligung erforderlich. </p> </div>
+      <h3>Versuchsleiter: Simon Sieben</h3>
+      <h3>Zweck und datenerhebende Stelle</h3>
+      <p>Im Rahmen der Studie „Prosodievorhersage“ wird die Bewertung der Natürlichkeit der Betonung synthetisierter Sprache durch die potenziellen Nutzer durch Perzeptionstests untersucht.</p>
+      <p>Die Testperson bekommt eine Reihe von synthetisierten Satzpaaren mit verschiedenen Synthese-Varianten mit unterschiedlich generierten Satz-Betonungen dargeboten. Es soll jeweils der natürlicher klingende Satz ausgewählt werden. </p>
+      <p>Alleinig für vorgenannten Forschungszweck sollen personenbezogene Daten durch die TU Dresden, Fakultät Elektrotechnik und Informationstechnik, Professur für Sprachtechnologie und Kognitive Systeme, 01062 Dresden, E-Mail kogsys@mailbox.tu-dresden.de verarbeitet werden (Verarbeitung im Sinne von Erhebung, Speicherung, Veränderung und Nutzung). </p> 
+      <p>Hierzu ist eine freiwillige und informierte Einwilligung erforderlich. </p> 
+      </div>
     - type: volume
       id: vol
       name: Lautstärkeeinstellung
