@@ -28,7 +28,17 @@ pages:
         <p>Alleinig für vorgenannten Forschungszweck sollen personenbezogene Daten durch die TU Dresden, Fakultät Elektrotechnik und Informationstechnik, Professur für Sprachtechnologie und Kognitive Systeme, 01062 Dresden, E-Mail kogsys@mailbox.tu-dresden.de verarbeitet werden (Verarbeitung im Sinne von Erhebung, Speicherung, Veränderung und Nutzung). </p> 
         <p>Hierzu ist eine freiwillige und informierte Einwilligung erforderlich. </p> 
 
-        <h3>Datenverarbeitung
+        <h3>Datenverarbeitung</h3>
+        <p> Die personenbezogenen Daten für jede Testperson (probandenbezogene Metadaten (Vorname, Familienname, Wohnort, Alter, Geschlecht, Muttersprache, Vergütung) werden den gesetzlichen Vorschriften entsprechend geschützt. </p>
+        <p> Die probandenbezogenen Daten werden getrennt von den Testdaten aufgezeichnet und vor der Verarbeitung der inhaltlichen Daten pseudonymisiert. Diesem Zweck dient eine Codeliste, die jedem Probandennamen eine alphanumerische Codierung (Probanden-ID) zuordnet. Die Codeliste wird nicht elektronisch gespeichert, sondern ausgedruckt und im Sekretariat der Professur unter Verschluss aufbewahrt. </p>
+        <p> Inhaltliche Daten (z.B. Antworten bzw. Auswahlentscheidungen während der Perzeptionstests, Reaktionszeiten/ Reaktionsmuster etc.) werden zwecks softwaregestützter Auswertung elektronisch gespeichert. </p>
+        <p> Sofern demografische Angaben für die Auswertung der Tests von Bedeutung sind, werden pseudonymisierte Probandenprofile angelegt, die anstelle der Namen die Probanden-IDs enthalten. </p>
+        <p> Wir sichern Ihnen zu, dass die Daten unverzüglich anonymisiert werden, sobald es der Forschungszweck erlaubt. Es kann jedoch unter Umständen und im Einzelfall möglich sein, dass keine vollständige Anonymisierung möglich ist. </p>
+
+        <h3>Freiwilligkeit und Widerruf</h3>
+        <p> Die Teilnahme an den Perzeptionstest sowie die Mitteilung personenbezogener Angaben im Zusammenhang mit der Teilnahme an den Perzeptionstests sind freiwillig. Die Teilnahme an den Tests sowie die Erhebung, Speicherung und Nutzung der Daten bedürfen der schriftlichen Einwilligung. Sie können Ihre Einwilligung jederzeit ohne Angabe von Gründen mit Wirkung auf die Zukunft widerrufen. </p>
+        <p> Im Fall der Verweigerung oder des Widerrufs der Einwilligung entstehen Ihnen keine Nachteile. </p>
+        <p> Wir weisen Sie darauf hin, dass Sie bis zum Zeitpunkt der Veröffentlichung die Löschung Ihrer Daten verlangen können, sofern diese individuell zuordenbar sind. </p>
         </div>
     - type: volume
       id: vol
