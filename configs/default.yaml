@@ -1,4 +1,4 @@
-testname: webMUSHRA Example
+testname: Hörexperiment Prosodievorhersage
 testId: prosody_experiment_short
 bufferSize: 4096
 stopOnErrors: true
@@ -13,7 +13,8 @@ pages:
       content: |
         <p> Willkommen zum Hörexperiment zur Prosodievorhersage!</p> 
         <p> Da im Folgenden sehr kleine Klangunterschiede bewertet werden sollen, bitten wir Sie Kopfhörer zu benutzen. </p>
-        <p> Nach der Einwilligungserklärung erfolgt gleich zunächst ein kurzer Kopfhörertest, in dem sie 6 mal denjenigen von drei Klängen identifizieren, welcher über Kopfhörer scheinbar einen tiefen Piepton enthält. </p> <p>Anschließend folgt das eigentliche Hörexperiment, welches ca. 60-90 Minuten in Anspruch nimmt. In diesem soll von jeweils zwei synthetisierten Sprachäußerungen diejenige ausgewählt werden, welche in Bezug auf Sprachrhythmus und Sprachmelodie natürlicher wirkt. Dafür muss jede synthetisierte Äußerung zumindest einmal komplett abgespielt werden, ein wiederholtes Hören ist aber auch möglich und bei Unsicherheit erwünscht. Für jedes Paar muss eine Präferenz abgegeben werden.</p>
+        <p> Nach der Einwilligungserklärung erfolgt gleich zunächst ein kurzer Kopfhörertest, in dem sie 6 mal denjenigen von drei Klängen identifizieren, welcher über Kopfhörer scheinbar einen tiefen Piepton enthält. </p> 
+        <p>Anschließend folgt das eigentliche Hörexperiment, welches ca. 30-40 Minuten in Anspruch nimmt. In diesem soll von jeweils zwei synthetisierten Sprachäußerungen diejenige ausgewählt werden, welche in Bezug auf Sprachrhythmus und Sprachmelodie natürlicher wirkt. Dafür muss jede synthetisierte Äußerung zumindest einmal komplett abgespielt werden, ein wiederholtes Hören ist aber auch möglich und bei Unsicherheit erwünscht. Für jedes Paar muss eine Präferenz abgegeben werden.</p>
         <p> Das Experiment endet schließlich mit einer kurzen demographischen Erhebung.</p>
     - type: consent
       id: consent_page
@@ -125,11 +126,11 @@ pages:
             J2: configs/resources/audio/listening_experiment/extra_probability_19.wav
             J3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_19.wav
             J4: configs/resources/audio/listening_experiment/extra_word_freq_19.wav
-            J6: configs/resources/audio/listening_experiment/vergleich_19.wav
+            J5: configs/resources/audio/listening_experiment/vergleich_19.wav
     - type: finish
       name: Vielen Dank!
       content: Vielen Dank für die Teilnahme!
-      showResults: true
+      showResults: false
       writeResults: true
       generateSubjectId: true
       questionnaire:
