@@ -1,6 +1,6 @@
 testname: webMUSHRA Example
 testId: prosody_experiment_short
-bufferSize: 8192
+bufferSize: 4096
 stopOnErrors: true
 showButtonPreviousPage: true
 remoteService: service/write.php
@@ -127,17 +127,17 @@ pages:
             J4: configs/resources/audio/listening_experiment/extra_word_freq_19.wav
             J6: configs/resources/audio/listening_experiment/vergleich_19.wav
     - type: finish
-      name: Thank you
+      name: Vielen Dank!
       content: Vielen Dank für die Teilnahme!
       showResults: true
       writeResults: true
       generateSubjectId: true
       questionnaire:
           - type: text
-            label: eMail (falls Angabe unerwünscht einfach x in das Feld eintragen)
+            label: E-Mail (falls Angabe unerwünscht einfach x in das Feld eintragen)
             name: email
           - type: number
-            label: Age
+            label: Alter
             name: age
             min: 0
             max: 100
