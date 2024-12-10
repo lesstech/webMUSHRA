@@ -1,5 +1,5 @@
 testname: Hörexperiment Prosodievorhersage
-testId: prosody_experiment_short
+testId: prosody_experiment_18
 bufferSize: 4096
 stopOnErrors: true
 showButtonPreviousPage: true

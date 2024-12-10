@@ -101,8 +101,8 @@ pages:
             label: Gender
             response:
              - value: female
-               label: Frau
+               label: weiblich
              - value: male
-               label: Mann
+               label: männlich
              - value: other
-               label: Divers
+               label: divers

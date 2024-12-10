@@ -1,5 +1,5 @@
 testname: Hörexperiment Prosodievorhersage
-testId: prosody_experiment_short
+testId: prosody_experiment_1
 bufferSize: 4096
 stopOnErrors: true
 showButtonPreviousPage: true
@@ -79,60 +79,13 @@ pages:
       stimuli:
           - A1: configs/resources/audio/listening_experiment/extra_pos_2.wav
             A2: configs/resources/audio/listening_experiment/extra_probability_2.wav
-            A3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_2.wav
-            A4: configs/resources/audio/listening_experiment/extra_word_freq_2.wav
-            A5: configs/resources/audio/listening_experiment/vergleich_2.wav
-          - B1: configs/resources/audio/listening_experiment/extra_pos_4.wav
-            B2: configs/resources/audio/listening_experiment/extra_probability_4.wav
-            B3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_4.wav
-            B4: configs/resources/audio/listening_experiment/extra_word_freq_4.wav
-            B5: configs/resources/audio/listening_experiment/vergleich_4.wav
-          - C1: configs/resources/audio/listening_experiment/extra_pos_5.wav
-            C2: configs/resources/audio/listening_experiment/extra_probability_5.wav
-            C3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_5.wav
-            C4: configs/resources/audio/listening_experiment/extra_word_freq_5.wav
-            C5: configs/resources/audio/listening_experiment/vergleich_5.wav
-          - D1: configs/resources/audio/listening_experiment/extra_pos_6.wav
-            D2: configs/resources/audio/listening_experiment/extra_probability_6.wav
-            D3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_6.wav
-            D4: configs/resources/audio/listening_experiment/extra_word_freq_6.wav
-            D5: configs/resources/audio/listening_experiment/vergleich_6.wav
-          - E1: configs/resources/audio/listening_experiment/extra_pos_7.wav
-            E2: configs/resources/audio/listening_experiment/extra_probability_7.wav
-            E3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_7.wav
-            E4: configs/resources/audio/listening_experiment/extra_word_freq_7.wav
-            E5: configs/resources/audio/listening_experiment/vergleich_7.wav
-          - F1: configs/resources/audio/listening_experiment/extra_pos_11.wav
-            F2: configs/resources/audio/listening_experiment/extra_probability_11.wav
-            F3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_11.wav
-            F4: configs/resources/audio/listening_experiment/extra_word_freq_11.wav
-            F5: configs/resources/audio/listening_experiment/vergleich_11.wav
-          - G1: configs/resources/audio/listening_experiment/extra_pos_12.wav
-            G2: configs/resources/audio/listening_experiment/extra_probability_12.wav
-            G3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_12.wav
-            G4: configs/resources/audio/listening_experiment/extra_word_freq_12.wav
-            G5: configs/resources/audio/listening_experiment/vergleich_12.wav
-          - H1: configs/resources/audio/listening_experiment/extra_pos_14.wav
-            H2: configs/resources/audio/listening_experiment/extra_probability_14.wav
-            H3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_14.wav
-            H4: configs/resources/audio/listening_experiment/extra_word_freq_14.wav
-            H5: configs/resources/audio/listening_experiment/vergleich_14.wav
-          - I1: configs/resources/audio/listening_experiment/extra_pos_17.wav
-            I2: configs/resources/audio/listening_experiment/extra_probability_17.wav
-            I3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_17.wav
-            I4: configs/resources/audio/listening_experiment/extra_word_freq_17.wav
-            I5: configs/resources/audio/listening_experiment/vergleich_17.wav
-          - J1: configs/resources/audio/listening_experiment/extra_pos_19.wav
-            J2: configs/resources/audio/listening_experiment/extra_probability_19.wav
-            J3: configs/resources/audio/listening_experiment/extra_probability_pos_tag_word_freq_19.wav
-            J4: configs/resources/audio/listening_experiment/extra_word_freq_19.wav
-            J5: configs/resources/audio/listening_experiment/vergleich_19.wav
     - type: finish
       name: Vielen Dank!
       content: Vielen Dank für die Teilnahme!
       showResults: false
       writeResults: true
       generateSubjectId: true
+      confirmationCode: GZ3NATC3
       questionnaire:
           - type: text
             label: E-Mail (falls Angabe unerwünscht einfach x in das Feld eintragen)

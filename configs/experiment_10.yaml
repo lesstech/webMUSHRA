@@ -1,5 +1,5 @@
 testname: Hörexperiment Prosodievorhersage
-testId: prosody_experiment_short
+testId: prosody_experiment_10
 bufferSize: 4096
 stopOnErrors: true
 showButtonPreviousPage: true
@@ -133,6 +133,7 @@ pages:
       showResults: false
       writeResults: true
       generateSubjectId: true
+      confirmationCode: F25TB9J9
       questionnaire:
           - type: text
             label: E-Mail (falls Angabe unerwünscht einfach x in das Feld eintragen)
