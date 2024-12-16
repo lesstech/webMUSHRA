@@ -133,6 +133,7 @@ pages:
       showResults: false
       writeResults: true
       generateSubjectId: true
+      confirmationCode: TUWKVSGN
       questionnaire:
           - type: text
             label: E-Mail (falls Angabe unerwünscht einfach x in das Feld eintragen)
